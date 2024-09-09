@@ -1,0 +1,155 @@
+.header{
+    background-color: #ab183d;
+    width: 964.8px;
+    height: 175px;
+    margin: auto;
+    
+}
+.container{
+    width: 964.8px;
+    height: 50px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    padding: auto;
+    position: relative;
+}
+.indiv{
+    width: 120px;
+    height: 50.8px;  
+     border-right: 2px solid white;
+     position: relative;
+}
+.anker{
+    color: aliceblue;
+    font-size: 15px;
+    position: absolute;
+    top: 13px;
+    left: 22px;
+    text-decoration: none;
+
+
+}
+.img{
+    width: 150px;
+    height: 150px;
+    margin: 3px;
+    padding: 15px;
+}
+.h1{
+    font-size: 50px;
+    position: absolute;
+    left: 650px;
+    bottom: 600px;
+}
+
+
+.bh1{
+    position: relative;
+    left: 400px;
+    margin: auto;
+    font-size: large; 
+      
+}
+.nextline{
+    position: relative;
+    left: 575px;
+    margin: auto;
+    font-size: large; 
+    color: rgb(214, 0, 0);
+
+}
+.link{
+    position: relative;
+    left: 550px;
+    margin: auto;
+    font-size: large; 
+    color: rgb(214, 0, 0);
+}
+.linkinsta{
+    position: relative;
+    left: 585px;
+    margin: auto;
+    font-size: large; 
+    color: rgb(214, 0, 0);
+}
+.marquee{
+     /* position: relative;  */
+    /* left: auto; */
+    height: 90px;
+    width: 964.8px; 
+    margin: auto;
+    /* background-color: aqua; */
+}
+.marquee marquee{
+    overflow: auto;
+}
+.table{
+    margin: auto;
+    width: 964.8px;
+    height: 128px;
+}
+.ips{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+.three{
+    width: 303.2px;
+    height: 1453.2px;
+    border: 2px solid #ab183d;
+    
+}
+.largdiv{
+    background-color: #8c0101;
+     width: auto; height: auto;
+      text-align: center; 
+      color: aliceblue;
+       font-size: 25px;
+}
+.subdiv{
+    border: 2px solid #8c0101;
+    width: 303.3px;
+    height: auto;
+    position: relative;
+}
+.largdiv1{
+    width: 713.95px;
+    
+    height: 7320px;
+    border: 2px solid #8c0101;  
+    margin: auto
+    
+    
+}
+.boxmain{
+   width: 713.95px;
+   
+}
+.box1{
+    border: 1px solid black;
+    height: 58px;
+}
+.boxin{
+    text-align: center;
+}
+.botum{
+    font-style: oblique;
+}
+.thiss{
+    margin: auto;
+    justify-content: space-evenly;
+}
+.lastbox{
+    width: 178.89px;
+    height: 359.6px;
+
+}
+.lasttable{
+    text-decoration: none;
+    color: #000000BF;
+}
