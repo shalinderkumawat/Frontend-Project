@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<title>Login Form</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	body {
+		background-color: rgb(237, 234, 255);
+		padding: 0;
+		font-family: sans-serif;
+		display: flex;
+		justify-content: center;
+	}
+
+
+
+	.login {
+		width: 401px;
+		height: 350px;
+		background: white;
+		top: 35%;
+
+		left: 50%;
+		box-sizing: border-box;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		padding-top: 20px;
+		padding-left: 30px;
+		border-radius: 5px;
+	}
+
+	.login input {
+		width: 90%;
+		margin-bottom: 25px;
+	}
+
+	.login input[type="text"],
+	input[type="password"] {
+		background: rgb(242, 249, 254);
+
+		border: none;
+		outline: none;
+		height: 40px;
+		border-radius: 9px;
+		padding: 10px;
+	}
+
+	.login input[type="submit"] {
+		/* outline:none; */
+		background: #193b80;
+		border: none;
+		border-radius: 10px;
+		height: 40px;
+		font-size: 30px;
+		font-weight: bold;
+		color: #fff;
+	}
+
+
+	#forget {
+		font-size: small;
+		margin: 0px;
+	}
+
+	#forget:hover {
+		color: black;
+
+	}
+
+	#login:hover {
+		background-color: #356cdb;
+		cursor: pointer;
+	}
+
+	p {
+		width: 100px;
+		display: flex;
+
+		padding-top: 10px;
+		justify-content: center;
+		font-size: x-large;
+
+		letter-spacing: 1px;
+		text-shadow: 50px rgb(184, 73, 180);
+		color: rgb(184, 73, 180);
+	}
+
+	.New {
+		position: absolute;
+		background-color: aqua;
+		
+	}
+</style>
+
+<body>
+	<p>meesho</p>
+	<div class="login">
+
+		<h4>Login to your supplier panel</h4>
+		<form>
+
+			<input type="text" name="" placeholder="Enter Your Username">
+
+			<input type="password" name="" placeholder="Enter Your Password">
+			<a href="" style="text-decoration: none; " id="forget">Forgot password</a>
+			<input type="submit" name="" value="Login" id="login">
+
+
+		</form>
+		<div class="New">
+			<span>New to Meesho?</span>
+			<a href="" style="text-decoration: none; ">Create your supplier account</a>
+
+		</div>
+	</div>
+
+</body>
+
+</html>
