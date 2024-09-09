@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    border: solid 2px black;
+    position: fixed;
+    width: 400px;
+    height: 100%;
+    background-color: #b52217 ;
+    color: aliceblue;
+    position: fixed;    
+    /* right: 0px; */
+}
+.Name{
+    
+    padding-top: 64px ;
+    padding-bottom: 64px ;
+    padding-left: 60px;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+   
+   
+}
+.buttones{
+   
+    padding-bottom: 64px ;
+    padding-left: 68px;
+    font-family: "Poppins", sans-serif;
+   
+    font-size: 24px;
+    .insidebuttones{
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 20px;
+        
+        
+
+    }
+    
+}
+.insidebuttones:hover{
+    color: rgb(41, 44, 46);
+    width: 100%;
+    box-shadow: none;
+}
+
+.Main{
+    
+    background-color: rgb(199, 212, 212);
+    width: 77%;
+    
+    padding-left: 340px;
+    /* position: absolute;
+    right: 0; */
+        
+}
+.header{
+   
+   position: absolute;
+   padding-left: 400px ;
+
+}
+.imgsix{
+    
+     margin-left: 70px;
+     position: relative;
+}
+#six{
+    width: 500px;
+    height: 400px;
+    padding: 10px;     
+}
+
+h3{
+    color: rgb(215, 54, 22);
+    font-family: Poppins, sans-serif;
+    margin-left: 70px;
+    position: relative;
+    font-size: 64px;
+
+}
+#text{
+    font-family:  Poppins, sans-serif;
+    margin-left: 90px;
+    
+    
+}
+p{
+    letter-spacing: 1px ;
+    font-size: x-large;
+    /* letter-spacing: ; */
+}
+.threeabout{
+display: flex;
+justify-content: center;
+}
+.about{
+    margin-left: 70px;
+    width: 300px;
+    height: 400px;
+    /* border: 2px solid black; */
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 5px 5px rgb(197, 195, 195);
+    background-color: antiquewhite;
+}
+#team{
+    width: 300px;
+}
+#name{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: x-large;
+    font-family: Poppins, sans-serif ;
+}
+#title{
+    font-family: Poppins, sans-serif;
+    padding-left: 10px;
+}
+#tex{
+    font-family: Poppins, sans-serif;
+    /* text-align: justify; */
+    font-size: 20px;
+    padding-left: 10px;
+}
+#two{
+    width: 400px;
+    height: 500px;
+    /* border: 2px solid black; */
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+    font-family: Poppins, sans-serif ;
+    background-color: rgb(146, 152, 156);
+    box-shadow: 0px 0px 5px 5px rgb(254, 249, 249);
+    
+    
+    h2{
+        height: 40px;
+        padding-top: 5px;
+    }
+    #height{
+        height: 90px;
+        padding-top: 10px;
+    }
+    #button{
+        width: 120px;
+        height: 50px;
+        text-align: center;
+        text-decoration: none;
+        font-family: Poppins, sans-serif;
+        font-size: x-large;
+        border-radius: 5px;
+        background-color: azure;
+        
+    }
+    #button:hover{
+        background-color: black;
+        color: azure;
+    }
+}
+.form{
+    padding-left: 140px;
+    
+}
+#lable{
+    font-family: Poppins, sans-serif;
+    
+}
+#input{
+    padding-left: 360px;
+    
+}
