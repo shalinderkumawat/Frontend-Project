@@ -45,3 +45,7 @@ li:hover{
 .aboutin li:hover{
     color: rgb(161, 161, 161);
 }
+.top{
+    display: flex;
+    
+}
