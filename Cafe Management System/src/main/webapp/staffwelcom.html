@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to MSG Cafe Staff Portal</title>
+    <style>
+        /* General reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #34ace0, #0c2461);
+            color: #fff;
+            overflow: hidden;
+        }
+
+        /* Main container */
+        .welcome-container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        /* Welcome heading */
+        .welcome-container h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            animation: fadeIn 2s;
+        }
+
+        /* Subtext */
+        .welcome-container p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            animation: fadeIn 3s;
+        }
+
+        /* Button style */
+        .explore-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            font-size: 1em;
+            color: #0c2461;
+            background-color: #fff;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .explore-btn:hover {
+            background-color: #0c2461;
+            color: #fff;
+        }
+
+        /* Fade-in animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <h1 id="welcomeMessage">Welcome!</h1>
+        <p>Thank you for being a valued member of the MSG Cafe team.</p>
+        <button class="explore-btn" onclick="explorePortal()">Go to Staff Portal</button>
+    </div>
+
+    <script>
+        // Function to set a personalized welcome message for staff
+        function welcomeStaff(name) {
+            const welcomeMessage = document.getElementById("welcomeMessage");
+            welcomeMessage.textContent = `Welcome, ${name}!`;
+        }
+
+        // Example: Getting staff member's name (usually from a backend, here simulated)
+        const staffName = "Alex"; // Replace with dynamic name as needed
+        welcomeStaff(staffName);
+
+        // Redirect function
+        function explorePortal() {
+            window.location.href = "staffportal.html";  // Change to the staff portal page
+        }
+    </script>
+</body>
+</html>

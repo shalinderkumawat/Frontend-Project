@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Details</title>
+  <style>
+    /* Basic Reset and Font */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Background and Body */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: url('cafe_1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    /* Form Container */
+    .form-container {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 40px;
+      width: 400px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+
+    /* Form Title */
+    .form-container h2 {
+      margin-bottom: 20px;
+      color: #ffd700;
+    }
+
+    /* Input Styles */
+    .form-container input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      background: #333;
+      color: #fff;
+      font-size: 16px;
+    }
+
+    /* Submit Button */
+    .form-container button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      background-color: #28a745;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    /* Button Hover */
+    .form-container button:hover {
+      background-color: #218838;
+    }
+
+    /* Error Message */
+    .error-message {
+      color: #ff6347;
+      font-size: 14px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Customer Details</h2>
+    <form id="customerForm">
+      <input type="text" id="name" placeholder="Customer Name" required>
+      <input type="number" id="tableNumber" placeholder="Table Number" required>
+      <input type="text" id="aadhar" placeholder="Aadhar Number" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="tel" id="contact" placeholder="Contact Number" required>
+      <input type="number" id="totalPersons" placeholder="Total Number of Persons" required>
+      <p class="error-message" id="errorMessage">Please fill out all fields correctly.</p>
+      <button type="button" onclick="validateForm()">Submit</button>
+    </form>
+  </div>
+
+  <script>
+    function validateForm() {
+      const name = document.getElementById('name').value;
+      const tableNumber = document.getElementById('tableNumber').value;
+      const aadhar = document.getElementById('aadhar').value;
+      const email = document.getElementById('email').value;
+      const contact = document.getElementById('contact').value;
+      const totalPersons = document.getElementById('totalPersons').value;
+      const errorMessage = document.getElementById('errorMessage');
+
+      // Basic validation
+      if (name === '' || tableNumber === '' || aadhar === '' || email === '' || contact === '' || totalPersons === '') {
+        errorMessage.style.display = 'block';
+      } else {
+        errorMessage.style.display = 'none';
+        alert('Customer Details Submitted Successfully!');
+        // Further processing can be added here
+      }
+    }
+  </script>
+</body>
+</html>
